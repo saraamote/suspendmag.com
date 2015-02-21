@@ -301,21 +301,60 @@
 /* BESPOKE
 ---------------------------------------------------*/
 
-// footer
+// homepage carousel
 
-.collection-type-index .secondary-nav {
+.summary-block-header {
 
-  display: inline-block;
-  text-align: left;
-
-}
-
-.secondary-nav ul li {
-
-  display: block !important;
+  position: absolute;
+  padding: 35% 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
 
 }
 
-// homepage product
+.summary-item-list-container sqs-gallery-container .summary-heading {
+
+  display: none;
+
+}
+
+.summary-carousel-pager.sqs-gallery-controls {
+
+  width: 100%;
+
+}
+
+.sqs-gallery-design-carousel .sqs-gallery-controls .previous:before {
+
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  content: 'V';
 
 
+}
+
+.summary-carousel-pager-prev.previous {
+
+  margin-left: 3.5%;
+  float: left;
+
+}
+
+.sqs-gallery-design-carousel .sqs-gallery-controls .next:before {
+
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  content: 'V';
+
+}
+
+.summary-carousel-pager-next.next {
+
+  margin-right: 3.5%;
+  float: right;
+
+}
