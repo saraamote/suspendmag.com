@@ -11,7 +11,7 @@
                 <a href="{collection.fullUrl}"><span>{collection.navigationTitle}</span></a>
             {.or folder?}
 
-                  <!--FOLDER-->
+                  <!-- FOLDER -->
 
                   <div class="folder-parent">
                     <a aria-haspopup="true"><span>{collection.navigationTitle}</span></a>
