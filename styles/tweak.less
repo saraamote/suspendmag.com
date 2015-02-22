@@ -319,8 +319,8 @@
 
 .summary-block-header {
 
+  padding: 26.5% 0 0 0;
   position: absolute;
-  padding: 35% 0;
   width: 100%;
   right: 0;
   left: 0;
@@ -343,8 +343,11 @@
 .sqs-gallery-design-carousel .sqs-gallery-controls .previous:before {
 
   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
   transform: rotate(90deg);
+  font-weight: bold;
   content: 'V';
 
 
@@ -352,6 +355,7 @@
 
 .sqs-gallery-design-carousel .sqs-gallery-controls .previous {
 
+  margin-left: 30px;
   float: left;
 
 }
@@ -359,20 +363,25 @@
 .sqs-gallery-design-carousel .sqs-gallery-controls .next:before {
 
   -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
+  font-weight: bold;
   content: 'V';
 
 }
 
 .sqs-gallery-design-carousel .sqs-gallery-controls .next {
 
+  margin-right: 30px;
   float: right;
 
 }
 
 /* carousel post title */
 
+.sqs-block-summary-v2 .summary-block-setting-text-size-medium .summary-title,
 .sqs-block-summary-v2 .summary-block-setting-design-carousel .summary-title {
 
   font-family: "aktiv-grotesk-std";
@@ -380,6 +389,7 @@
   position: relative;
   font-weight: bold;
   color: #171717;
+  color: pink;
 
 }
 
