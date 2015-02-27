@@ -19,6 +19,7 @@
     </div>
 
     <div class="site-wrapper">
+
       <div class="site-inner-wrapper">
       <!--CONTENT INJECTION POINT-->
       {.if item}
@@ -225,7 +226,7 @@
         <section id="content-wrapper">
           <div class="sqs-cart-dropzone"></div>
           <div class="content">
-            <div class="content-inner" data-content-field="main-content">
+            <div class="bespoke content-inner" data-content-field="main-content">
             {squarespace.main-content}
             </div>
             {.section collection}
