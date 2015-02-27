@@ -3,7 +3,7 @@
   {.section item}
     <article class="entry {@|item-classes} clear" id="article-{id}" data-item-id="{id}">
 
-      <div class="entry-title-wrapper">
+      <div class="entry-title-wrapper" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
 
         <h1 data-content-field="title" class="entry-title">{title}</h1>
 
@@ -65,3 +65,16 @@
   {.end}
 
 </section>
+
+<script>
+
+  $('#myAffix').affix({
+  offset: {
+    top: 100,
+    bottom: function () {
+      return (this.bottom = $('.entry-content').outerHeight(true))
+    }
+  }
+})
+
+</script>
