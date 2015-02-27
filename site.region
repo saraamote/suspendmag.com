@@ -81,7 +81,7 @@
           <div class="sqs-cart-dropzone"></div>
           <div class="content">
 
-            <div class="content-inner" data-content-field="main-content">
+            <div class="bespoke content-inner" data-content-field="main-content">
               {squarespace.main-content}
 
               <div class="page-desc">
