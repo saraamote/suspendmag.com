@@ -72,7 +72,7 @@
   offset: {
     top: 100,
     bottom: function () {
-      return (this.bottom = $('.entry-content').outerHeight(true))
+      return (this.bottom = $('#comments-outer-wrapper').outerHeight(true))
     }
   }
 })
