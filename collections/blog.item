@@ -35,7 +35,7 @@
           {@}
         {.end}
 
-        <p class="entry-actions">
+        <!--<p class="entry-actions">
           {.comments?}
           <a class="entry-comments" href="{fullUrl}#comments-outer-wrapper" title="Comments">
           {.if websiteSettings.disqusShortname}
@@ -50,7 +50,7 @@
           </a>
         {.end}
 
-        </p>
+        </p>-->
 
         {.if postItemInjectCode}
         <div class="entry-injection">
