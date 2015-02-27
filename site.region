@@ -90,7 +90,11 @@
                   <span class="author-name">
 
                     {.if author.avatarId}
-                    <img src="/global/{author.avatarId}?format=36w" />
+                    <div class="bespoke-avatar">
+
+                      <img src="/global/{author.avatarId}?format=36w" />
+
+                    </div>
                     {.end}
 
                     <br>
