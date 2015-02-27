@@ -7,7 +7,17 @@
 
         <h1 data-content-field="title" class="entry-title">{title}</h1>
 
-      </div>
+        <div class="entry-short-desc">
+          <p class="date entry-author">
+            <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>{.section author}
+            <span class="author-name">
+
+              <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
+            </span>{.end}
+          </p>
+        </div>
+
+        </div>
 
       <div class="entry-content">
 

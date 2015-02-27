@@ -102,7 +102,7 @@
 
                     <em>{author.bio}</em>
 
-                    <em>Author Name</em> <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
+                    <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
                   </span>{.end}
                 </p>
               </div>
