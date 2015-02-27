@@ -15,6 +15,12 @@
           </p>
         </div>
 
+        <div class="bespoke-social">
+
+          {@|like-button}{@|social-button-inline}
+
+        </div>
+
         </div>
 
       <div class="entry-content">
@@ -37,7 +43,7 @@
           {.end}
           </a>
         {.end}
-        {@|like-button}{@|social-button-inline}
+
         </p>
 
         {.if postItemInjectCode}
