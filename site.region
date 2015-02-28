@@ -10,10 +10,6 @@
     {squarespace-headers}
     <squarespace:script src="site.js" combo="true" />
 
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
   </head>
 
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}{.if item}{.section item}{.main-image?} has-banner-image{.end}{.end}{.or}{.section collection}{.equal? typeName "index"}{.section collections}{.section 0}{.section mainImage} has-banner-image{.end}{.end}{.end}{.or}{.equal? typeName "album"}{.or}{.equal? typeName "gallery"}{.or}{.section mainImage} has-banner-image{.end}{.end}{.end}{.end}{.end}{.end}">
@@ -316,3 +312,8 @@
   </body>
 </html>
 
+
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
