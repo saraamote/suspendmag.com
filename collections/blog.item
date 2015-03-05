@@ -3,7 +3,7 @@
   {.section item}
     <article class="entry {@|item-classes} clear" id="article-{id}" data-item-id="{id}">
 
-      <div class="entry-title-wrapper" data-spy="affix">
+      <div class="entry-title-wrapper" data-spy="affix" data-offset-bottom="800">
 
         <h1 data-content-field="title" class="entry-title">{title}</h1>
 
@@ -70,7 +70,7 @@
 
 </section>
 
-<script>
+<!--<script>
 
   $('#myAffix').affix({
   offset: {
@@ -81,4 +81,4 @@
   }
 })
 
-</script>
+</script>-->
