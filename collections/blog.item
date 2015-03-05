@@ -61,8 +61,12 @@
       
     </article>
 
+<!--
     {.comments?}<div id="comments-outer-wrapper">{@|comments}</div>{.end}
+-->
   {.end}
+
+    <div id="comments-outer-wrapper">{@|comments}</div>
 
 </section>
 
