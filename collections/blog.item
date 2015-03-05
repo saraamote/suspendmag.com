@@ -68,16 +68,13 @@
 
 <script>
 
-  $(function() {
-
-    $('#myAffix').affix({
-    offset: {
-      top: 100,
-      bottom: function () {
-        return (this.bottom = $('.entry-content').outerHeight(true))
-      }
+  $('#myAffix').affix({
+  offset: {
+    top: 100,
+    bottom: function () {
+      return (this.bottom = $('#comments-outer-wrapper').outerHeight(true))
     }
-  })
+  }
+})
 
-});
 </script>
