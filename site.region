@@ -318,22 +318,5 @@
   </script>
   {.end}
 
-  <script>
-
-    $(document).ready(function(){
-
-      $('#myAffix').affix({
-        offset: {
-          top: 100,
-          bottom: function () {
-            return (this.bottom = $('#comments').outerHeight(true))
-          }
-        }
-      })
-
-    });
-
-  </script>
-
   </body>
 </html>
