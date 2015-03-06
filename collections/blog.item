@@ -72,17 +72,13 @@
 
 <script>
 
-    $(document).ready(function(){
-
       $('#myAffix').affix({
-        offset: {
-          top: 100,
-          bottom: function () {
-            return (this.bottom = $('#comments-outer-wrapper').outerHeight(true))
-          }
-        }
-      })
-
-    });
+      offset: {
+      top: 100,
+      bottom: function () {
+        return (this.bottom = $('body').outerHeight(true))
+      }
+    }
+  })
 
   </script>
