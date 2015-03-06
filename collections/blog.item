@@ -61,12 +61,9 @@
       
     </article>
 
-<!--
-    {.comments?}<div id="comments-outer-wrapper">{@|comments}</div>{.end}
--->
-  {.end}
-
     <div id="comments-outer-wrapper">{@|comments}</div>
+
+  {.end}
 
 </section>
 
@@ -76,7 +73,7 @@
       offset: {
       top: 100,
       bottom: function () {
-        return (this.bottom = $('body').outerHeight(true))
+        return (this.bottom = $('#comments-outer-wrapper').outerHeight(true))
       }
     }
   })
