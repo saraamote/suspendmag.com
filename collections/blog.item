@@ -70,15 +70,15 @@
 
 </section>
 
-<!--<script>
+<script>
 
   $('#myAffix').affix({
   offset: {
     top: 100,
     bottom: function () {
-      return (this.bottom = $('#comments-outer-wrapper').outerHeight(true))
+      return (this.bottom = $('#comments').outerHeight(true))
     }
   }
 })
 
-</script>-->
+</script>
