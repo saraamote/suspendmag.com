@@ -32,12 +32,21 @@
 
       <script type="text/javascript">
 
-        $('#myAffix').affix({
-          offset: {
-            top: 100
+        $( '#myAffix' ).affix({
+
+          offset : {
+
+            top : 100,
+
+            bottom : function () {
+
+              return 1000;
+
             }
+
           }
-        })
+
+        });
 
       </script>
 
