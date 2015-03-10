@@ -38,11 +38,7 @@
 
             top : 100,
 
-            bottom : function () {
-
-              return 1000;
-
-            }
+            bottom : 1000
 
           }
 
