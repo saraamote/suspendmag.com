@@ -3,7 +3,7 @@
   {.section item}
     <article class="entry {@|item-classes} clear" id="article-{id}" data-item-id="{id}">
 
-      <div class="entry-title-wrapper" id="myAffix">
+      <div class="entry-title-wrapper" id="myaffix">
 
         <h1 data-content-field="title" class="entry-title">{title}</h1>
 
@@ -30,16 +30,15 @@
         </div>
 
 
-    <script>
+      <script type="text/javascript">
 
-          $('#myAffix').affix({
-          offset: {
-          top: 100,
-          bottom: function () {
-            return (this.bottom = $('#comments-outer-wrapper').outerHeight(true))
-          }
+        $(document).ready(function(){
+        $("#myaffix").affix({
+        offset: {
+            top: 195
         }
-      })
+        });
+        });
 
       </script>
 
@@ -80,3 +79,17 @@
   {.end}
 
 </section>
+
+<script>
+
+  $('#myAffix').affix({
+    offset: {
+      top: 100,
+      bottom: function () {
+        return (this.bottom = $('#comments').outerHeight(true))
+      }
+    }
+  })
+
+
+</script>
