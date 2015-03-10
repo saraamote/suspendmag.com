@@ -30,6 +30,7 @@
         </div>
 
 
+<!--
       <script type="text/javascript">
 
         $( '#myAffix' ).affix({
@@ -45,6 +46,7 @@
         });
 
       </script>
+-->
 
       <div class="entry-content">
 
