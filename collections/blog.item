@@ -35,7 +35,10 @@
         $(document).ready(function(){
         $("#myaffix").affix({
         offset: {
-            top: 195
+            top: 195,
+            bottom: function () {
+          return (this.bottom = $('#comments').outerHeight(true))
+          }
         }
         });
         });
@@ -79,17 +82,3 @@
   {.end}
 
 </section>
-
-<script>
-
-  $('#myAffix').affix({
-    offset: {
-      top: 100,
-      bottom: function () {
-        return (this.bottom = $('#comments').outerHeight(true))
-      }
-    }
-  })
-
-
-</script>
