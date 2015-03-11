@@ -40,8 +40,6 @@
 
             offset : {
 
-              top : 100,
-
               bottom : function () {
 
                 return ( document.body.clientHeight - $( '#comments-outer-wrapper' )[ 0 ].offsetTop );
