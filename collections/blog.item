@@ -150,8 +150,11 @@
 
   .bespoke-author-name {
 
-    display: block;
+    font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase;
+    padding: 0 0 50px 0;
     position: relative;
+    display: block;
 
   }
 
@@ -165,7 +168,6 @@
       width: 30px;
       height: 8px;
       content: '';
-      right: 0;
       left: 0;
 
     }
