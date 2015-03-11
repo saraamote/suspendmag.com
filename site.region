@@ -94,28 +94,6 @@
             <div class="bespoke content-inner" data-content-field="main-content">
               {squarespace.main-content}
 
-              <div class="page-desc">
-                <p class="date entry-author">
-                  <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>{.section author}
-                  <span class="author-name">
-
-                    {.if author.avatarId}
-                    <div class="bespoke-avatar">
-
-                      <img src="/global/{author.avatarId}?format=36w" />
-
-                    </div>
-                    {.end}
-
-                    <br>
-
-                    <em>{author.bio}</em>
-
-                    <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
-                  </span>{.end}
-                </p>
-              </div>
-
             </div>
 
             {.if categories || tags || sourceUrl || pagination}
