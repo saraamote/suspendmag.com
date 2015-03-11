@@ -29,7 +29,7 @@
 
         <div class="bespoke-social">
 
-        <a onclick="FB.ui({method: 'share',href: '{fullUrl}',}, function(response){});">
+        <a onclick="FB.ui({method: 'share',href: '',}, function(response){});">
 
 
           Facebook
