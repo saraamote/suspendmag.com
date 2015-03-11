@@ -103,11 +103,13 @@
                 </div>
                 {.end}
 
-                <br>
+                <div class="bespoke-info">
 
-                <em class="author-name">{displayName}</em>
+                  <em class="author-name">{displayName}</em>
 
-                <em>{author.bio}</em>
+                  <em>{author.bio}</em>
+
+                </div>
 
               </span>{.end}
             </p>
@@ -123,3 +125,32 @@
   {.end}
 
 </section>
+
+<style>
+
+  .bespoke-avatar,
+  .bespoke-info {
+
+    display: inline-block;
+
+  }
+
+  .bespoke-avatar {
+
+    width: 30%;
+
+  }
+
+  .bespoke-info {
+
+    width: 70%;
+
+  }
+
+  .author-name {
+
+    display: block;
+
+  }
+
+</style>
