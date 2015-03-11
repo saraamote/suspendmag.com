@@ -144,6 +144,7 @@
 
   .bespoke-info {
 
+    line-height: 1.35;
     width: 65%;
 
   }
@@ -152,6 +153,8 @@
 
     font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif !important;
     text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
     padding: 0 0 50px 0;
     position: relative;
     display: block;
@@ -171,6 +174,14 @@
       left: 0;
 
     }
+
+  #comments,
+  .comment-count {
+
+    font-size: 14px !important;
+
+  }
+
 
 
 </style>
