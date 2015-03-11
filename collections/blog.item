@@ -87,22 +87,28 @@
 
             <div class="page-desc">
             <p class="date entry-author">
-              <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>{.section author}
+              <!--<time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>-->
+              {.section author}
               <span class="author-name">
 
                 {.if author.avatarId}
                 <div class="bespoke-avatar">
 
-                  <img src="/global/{author.avatarId}?format=36w" />
+                   <a href="{collection.fullUrl}?author={author.id}">
+
+                    <img src="/global/{author.avatarId}?format=36w" />
+
+                  </a>
 
                 </div>
                 {.end}
 
                 <br>
 
+                <em class="author-name">{displayName}</em>
+
                 <em>{author.bio}</em>
 
-                <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
               </span>{.end}
             </p>
         </div>
