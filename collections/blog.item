@@ -85,28 +85,28 @@
           {postItemInjectCode}</div>
         {.end}
 
-      </div>
-      
-      <div class="page-desc">
-        <p class="date entry-author">
-          <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>{.section author}
-          <span class="author-name">
+            <div class="page-desc">
+            <p class="date entry-author">
+              <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>{.section author}
+              <span class="author-name">
 
-            {.if author.avatarId}
-            <div class="bespoke-avatar">
+                {.if author.avatarId}
+                <div class="bespoke-avatar">
 
-              <img src="/global/{author.avatarId}?format=36w" />
+                  <img src="/global/{author.avatarId}?format=36w" />
 
-            </div>
-            {.end}
+                </div>
+                {.end}
 
-            <br>
+                <br>
 
-            <em>{author.bio}</em>
+                <em>{author.bio}</em>
 
-            <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
-          </span>{.end}
-        </p>
+                <a href="{collection.fullUrl}?author={author.id}">{displayName}</a>
+              </span>{.end}
+            </p>
+        </div>
+
       </div>
 
 
