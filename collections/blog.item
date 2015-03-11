@@ -105,7 +105,7 @@
 
                 <div class="bespoke-info">
 
-                  <em class="author-name">{displayName}</em>
+                  <em class="bespoke-author-name">{displayName}</em>
 
                   <em>{author.bio}</em>
 
@@ -148,7 +148,7 @@
 
   }
 
-  .author-name {
+  .bespoke-author-name {
 
     display: block;
     position: relative;
@@ -156,7 +156,7 @@
   }
 
 
-    .author-name:after {
+    .bespoke-author-name:after {
 
       position: absolute;
       background: #000;
