@@ -23,6 +23,7 @@
 
     <header class="entry-header cf">
 
+      <!--
       <p class="entry-actions">
         {.comments?}
           <a class="entry-comments" href="{fullUrl}#comments-outer-wrapper" title="Comments">
@@ -39,8 +40,7 @@
         {.end}
         {@|like-button}{@|social-button-inline}
       </p>
-
-      <p class="entry-more-link"><a href="{fullUrl}"></a></p>
+      -->
 
     </header>
     <div class="entry-title-wrapper">
@@ -89,6 +89,8 @@
       {.end}
       
     </div>
+
+    <p class="entry-more-link"><a href="{fullUrl}"></a></p>
   
   </article>
   {.end}
