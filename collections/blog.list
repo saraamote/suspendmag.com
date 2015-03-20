@@ -54,6 +54,9 @@
       <p class="date">
         <time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time>
       </p>
+
+      <p class="entry-more-link"><a href="{fullUrl}"></a></p>
+
     </div>
     
     <div class="entry-content">
@@ -89,10 +92,42 @@
       {.end}
       
     </div>
-
-    <p class="entry-more-link"><a href="{fullUrl}"></a></p>
   
   </article>
   {.end}
   
 </section>
+
+<style>
+
+  .view-list article .entry-header {
+
+      border-color: transparent;
+
+  }
+
+  .entry-title-wrapper:before {
+
+    position: absolute;
+    background: #000;
+    margin: auto;
+    top: -8px;
+    width: 90px;
+    height: 8px;
+    content: '';
+    left: 0;
+
+  }
+
+  .entry-title-wrapper {
+
+    font-family: "franklin-gothic-urw",Helvetica,Arial,sans-serif !important;
+    font-weight: 400 !important;
+    z-index: 100;
+    width: 250px;
+    top: 180px;
+    left: 50px;
+
+  }
+
+</style>
