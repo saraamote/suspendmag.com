@@ -111,7 +111,7 @@
     position: absolute;
     background: #000;
     margin: auto;
-    top: -8px;
+    top: -30px;
     width: 90px;
     height: 8px;
     content: '';
@@ -123,10 +123,16 @@
 
     font-family: "franklin-gothic-urw",Helvetica,Arial,sans-serif !important;
     font-weight: 400 !important;
-    z-index: 100;
-    width: 250px;
-    top: 180px;
-    left: 50px;
+    position: relative;
+
+  }
+
+  .entry-more-link {
+
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: left;
+    padding: 20px 0;
 
   }
 
